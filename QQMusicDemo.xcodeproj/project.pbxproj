@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1B19E1795CA2F593F6B04CA /* libPods-QQMusicDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE19C8DE97D3E285D6F98BA /* libPods-QQMusicDemo.a */; };
 		E1EDA6261DE747EB003E4D38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EDA6251DE747EB003E4D38 /* main.m */; };
 		E1EDA6291DE747EB003E4D38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EDA6281DE747EB003E4D38 /* AppDelegate.m */; };
 		E1EDA62C1DE747EB003E4D38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EDA62B1DE747EB003E4D38 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		E1EDA6341DE747EB003E4D38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1EDA6321DE747EB003E4D38 /* LaunchScreen.storyboard */; };
 		E1EDA63F1DE747EB003E4D38 /* QQMusicDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EDA63E1DE747EB003E4D38 /* QQMusicDemoTests.m */; };
 		E1EDA64A1DE747EB003E4D38 /* QQMusicDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EDA6491DE747EB003E4D38 /* QQMusicDemoUITests.m */; };
+		E1EDA65B1DE74818003E4D38 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EDA6591DE74818003E4D38 /* HeaderView.m */; };
+		E1EDA65C1DE74818003E4D38 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1EDA65A1DE74818003E4D38 /* HeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DE19C8DE97D3E285D6F98BA /* libPods-QQMusicDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QQMusicDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		717C313E86DDE58824224A2F /* Pods-QQMusicDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQMusicDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QQMusicDemo/Pods-QQMusicDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		91AC8E34CB8A504F80727725 /* Pods-QQMusicDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQMusicDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QQMusicDemo/Pods-QQMusicDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E1EDA6211DE747EB003E4D38 /* QQMusicDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQMusicDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1EDA6251DE747EB003E4D38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E1EDA6271DE747EB003E4D38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,9 @@
 		E1EDA6451DE747EB003E4D38 /* QQMusicDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQMusicDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1EDA6491DE747EB003E4D38 /* QQMusicDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQMusicDemoUITests.m; sourceTree = "<group>"; };
 		E1EDA64B1DE747EB003E4D38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1EDA6581DE74818003E4D38 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		E1EDA6591DE74818003E4D38 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		E1EDA65A1DE74818003E4D38 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1B19E1795CA2F593F6B04CA /* libPods-QQMusicDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +88,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		371360FF0A4F46823314CD93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				717C313E86DDE58824224A2F /* Pods-QQMusicDemo.debug.xcconfig */,
+				91AC8E34CB8A504F80727725 /* Pods-QQMusicDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96B38426F973D52159932D83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DE19C8DE97D3E285D6F98BA /* libPods-QQMusicDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E1EDA6181DE747EB003E4D38 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +112,8 @@
 				E1EDA63D1DE747EB003E4D38 /* QQMusicDemoTests */,
 				E1EDA6481DE747EB003E4D38 /* QQMusicDemoUITests */,
 				E1EDA6221DE747EB003E4D38 /* Products */,
+				371360FF0A4F46823314CD93 /* Pods */,
+				96B38426F973D52159932D83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +130,7 @@
 		E1EDA6231DE747EB003E4D38 /* QQMusicDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E1EDA6571DE747F9003E4D38 /* HeaderViewGroup */,
 				E1EDA6271DE747EB003E4D38 /* AppDelegate.h */,
 				E1EDA6281DE747EB003E4D38 /* AppDelegate.m */,
 				E1EDA62A1DE747EB003E4D38 /* ViewController.h */,
@@ -140,6 +170,16 @@
 			path = QQMusicDemoUITests;
 			sourceTree = "<group>";
 		};
+		E1EDA6571DE747F9003E4D38 /* HeaderViewGroup */ = {
+			isa = PBXGroup;
+			children = (
+				E1EDA6581DE74818003E4D38 /* HeaderView.h */,
+				E1EDA6591DE74818003E4D38 /* HeaderView.m */,
+				E1EDA65A1DE74818003E4D38 /* HeaderView.xib */,
+			);
+			name = HeaderViewGroup;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1EDA64E1DE747EB003E4D38 /* Build configuration list for PBXNativeTarget "QQMusicDemo" */;
 			buildPhases = (
+				7D054C75C492172411198A7E /* [CP] Check Pods Manifest.lock */,
 				E1EDA61D1DE747EB003E4D38 /* Sources */,
 				E1EDA61E1DE747EB003E4D38 /* Frameworks */,
 				E1EDA61F1DE747EB003E4D38 /* Resources */,
+				3A69E6EE85055A6402A6B339 /* [CP] Embed Pods Frameworks */,
+				FFA5A150887437AF09F4436C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,7 +250,7 @@
 				TargetAttributes = {
 					E1EDA6201DE747EB003E4D38 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 4GZ4P57LRH;
+						DevelopmentTeam = 9266GAZZ3C;
 						ProvisioningStyle = Automatic;
 					};
 					E1EDA6391DE747EB003E4D38 = {
@@ -252,6 +295,7 @@
 				E1EDA6341DE747EB003E4D38 /* LaunchScreen.storyboard in Resources */,
 				E1EDA6311DE747EB003E4D38 /* Assets.xcassets in Resources */,
 				E1EDA62F1DE747EB003E4D38 /* Main.storyboard in Resources */,
+				E1EDA65C1DE74818003E4D38 /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +315,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A69E6EE85055A6402A6B339 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QQMusicDemo/Pods-QQMusicDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D054C75C492172411198A7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFA5A150887437AF09F4436C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QQMusicDemo/Pods-QQMusicDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E1EDA61D1DE747EB003E4D38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -279,6 +371,7 @@
 				E1EDA62C1DE747EB003E4D38 /* ViewController.m in Sources */,
 				E1EDA6291DE747EB003E4D38 /* AppDelegate.m in Sources */,
 				E1EDA6261DE747EB003E4D38 /* main.m in Sources */,
+				E1EDA65B1DE74818003E4D38 /* HeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +444,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -399,6 +493,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -425,10 +520,12 @@
 		};
 		E1EDA64F1DE747EB003E4D38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 717C313E86DDE58824224A2F /* Pods-QQMusicDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4GZ4P57LRH;
+				DEVELOPMENT_TEAM = 9266GAZZ3C;
 				INFOPLIST_FILE = QQMusicDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Hy.QQMusicDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,10 +534,12 @@
 		};
 		E1EDA6501DE747EB003E4D38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91AC8E34CB8A504F80727725 /* Pods-QQMusicDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4GZ4P57LRH;
+				DEVELOPMENT_TEAM = 9266GAZZ3C;
 				INFOPLIST_FILE = QQMusicDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Hy.QQMusicDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +615,7 @@
 				E1EDA6501DE747EB003E4D38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1EDA6511DE747EB003E4D38 /* Build configuration list for PBXNativeTarget "QQMusicDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +624,7 @@
 				E1EDA6531DE747EB003E4D38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1EDA6541DE747EB003E4D38 /* Build configuration list for PBXNativeTarget "QQMusicDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +633,7 @@
 				E1EDA6561DE747EB003E4D38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

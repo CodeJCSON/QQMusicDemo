@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="390EFF04E9A4D85DE289C5EF1B7E050E" translatesAutoresizingMaskIntoConstraints="NO" id="YiX-km-BHb">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                </imageView>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ted-Hn-Tqd" customClass="FXBlurView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YgH-OX-uca">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Je-RK-2Vx">
+                            <rect key="frame" x="0.0" y="281" width="375" height="50"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="11381801" translatesAutoresizingMaskIntoConstraints="NO" id="jg2-43-VS1">
+                                    <rect key="frame" x="8" y="5" width="40" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="20"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@Hy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHr-qJ-L00">
+                                    <rect key="frame" x="56" y="5" width="37" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="tOZ-Jm-C2R"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PNE-yN-ixO">
+                            <rect key="frame" x="0.0" y="331" width="375" height="44"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tools" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sxV-Nz-gfI">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Light" family="Kohinoor Devanagari" pointSize="21"/>
+                                    <color key="textColor" red="0.96862745098039216" green="0.91764705882352937" blue="0.69411764705882351" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.19674932309311155" green="0.19674932309311155" blue="0.19674932309311155" alpha="0.69353945035460995" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="sxV-Nz-gfI" secondAttribute="bottom" id="34f-S3-DeY"/>
+                                <constraint firstItem="sxV-Nz-gfI" firstAttribute="top" secondItem="PNE-yN-ixO" secondAttribute="top" id="7Kz-MH-qyo"/>
+                                <constraint firstItem="sxV-Nz-gfI" firstAttribute="leading" secondItem="PNE-yN-ixO" secondAttribute="leading" id="Gne-8K-mvJ"/>
+                                <constraint firstAttribute="height" constant="44" id="HtG-DX-TOr"/>
+                                <constraint firstAttribute="trailing" secondItem="sxV-Nz-gfI" secondAttribute="trailing" id="MMq-l8-Drd"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.2529089095744681" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="PNE-yN-ixO" secondAttribute="trailing" id="5cc-Ew-oFd"/>
+                        <constraint firstAttribute="bottom" secondItem="PNE-yN-ixO" secondAttribute="bottom" id="EJK-ji-Zou"/>
+                        <constraint firstAttribute="trailing" secondItem="1Je-RK-2Vx" secondAttribute="trailing" id="aJT-ly-Xg0"/>
+                        <constraint firstItem="PNE-yN-ixO" firstAttribute="leading" secondItem="YgH-OX-uca" secondAttribute="leading" id="ugQ-rl-OnQ"/>
+                        <constraint firstAttribute="bottom" secondItem="1Je-RK-2Vx" secondAttribute="bottom" constant="44" id="uow-Ho-chX"/>
+                        <constraint firstItem="1Je-RK-2Vx" firstAttribute="leading" secondItem="YgH-OX-uca" secondAttribute="leading" id="xCN-eo-eit"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="YiX-km-BHb" secondAttribute="bottom" id="1kk-mp-ODn"/>
+                <constraint firstAttribute="trailing" secondItem="YiX-km-BHb" secondAttribute="trailing" id="5Y8-KQ-w9B"/>
+                <constraint firstItem="YiX-km-BHb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="EVZ-kA-FCM"/>
+                <constraint firstAttribute="bottom" secondItem="YgH-OX-uca" secondAttribute="bottom" id="GVI-0V-hRr"/>
+                <constraint firstItem="YiX-km-BHb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="N9N-4i-vNu"/>
+                <constraint firstAttribute="trailing" secondItem="ted-Hn-Tqd" secondAttribute="trailing" id="UCm-it-c11"/>
+                <constraint firstItem="ted-Hn-Tqd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ZSt-ka-tYU"/>
+                <constraint firstItem="YgH-OX-uca" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aGP-ev-lJz"/>
+                <constraint firstAttribute="bottom" secondItem="ted-Hn-Tqd" secondAttribute="bottom" id="fWi-Pn-dBW"/>
+                <constraint firstItem="ted-Hn-Tqd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="gzS-5d-FhM"/>
+                <constraint firstItem="YgH-OX-uca" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="o22-c5-8ox"/>
+                <constraint firstAttribute="trailing" secondItem="YgH-OX-uca" secondAttribute="trailing" id="wgQ-gN-vkz"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="blurView" destination="ted-Hn-Tqd" id="1sf-hQ-zj7"/>
+                <outlet property="bottomLayout" destination="EJK-ji-Zou" id="w3C-NW-1iG"/>
+                <outlet property="imageView" destination="YiX-km-BHb" id="Eap-aF-lDY"/>
+            </connections>
+            <point key="canvasLocation" x="0.5" y="-32.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="11381801" width="89" height="89"/>
+        <image name="390EFF04E9A4D85DE289C5EF1B7E050E" width="500" height="500"/>
+    </resources>
+</document>

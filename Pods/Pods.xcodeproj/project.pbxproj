@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07977F9DAE0B0F6FC885AACDA4C4148C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E448886F539D1901165DB8CA98B53190 /* Foundation.framework */; };
+		1455697ECC2DF6C0564762F61655CECA /* FXBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E5F4F3091580F38A58EE40498838055 /* FXBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A57FE01C3A9D63721359F5B5CC30ED2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0F502D72C788CE7E292AB05EC80EAE /* QuartzCore.framework */; };
+		3E9FE2EB5C6E67DAD379ED9F43071C3B /* FXBlurView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4CDB32F3A5769862171CCC22CBD22 /* FXBlurView-dummy.m */; };
+		54DB15D58DBC72D9E7BB555061069E06 /* Pods-QQMusicDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD738BCF5872143400EB50B57D70809B /* Pods-QQMusicDemo-dummy.m */; };
+		AD5F1C6EF796E495F0EF72C87CF7732D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACED8C86EFAA0133ACD675960567676 /* Accelerate.framework */; };
+		BA0BB8AD8FCF8092A765522C9F788CA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E448886F539D1901165DB8CA98B53190 /* Foundation.framework */; };
+		EB3774E0A0442180CE015AC70748DB21 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BCA0059405D5A296486D9F1EDBDF62 /* FXBlurView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		362A92AB938412C3AA0733C5F5F58C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17392667E38E4938ACA525E988BB433B;
+			remoteInfo = FXBlurView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B96CEAE8F3EF1851E13FFE83A50773 /* Pods-QQMusicDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQMusicDemo.release.xcconfig"; sourceTree = "<group>"; };
+		1FA4CDB32F3A5769862171CCC22CBD22 /* FXBlurView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FXBlurView-dummy.m"; sourceTree = "<group>"; };
+		2E5F4F3091580F38A58EE40498838055 /* FXBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXBlurView.h; path = FXBlurView/FXBlurView.h; sourceTree = "<group>"; };
+		3C0F502D72C788CE7E292AB05EC80EAE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		3F643DD2DB31AABBD4041D5085E6CB4D /* Pods-QQMusicDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QQMusicDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		694D7BA962CF0CCF04317014F3D6C116 /* Pods-QQMusicDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQMusicDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7FD60026A9CE4D4D992ADBBA8BE101BE /* Pods-QQMusicDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QQMusicDemo-frameworks.sh"; sourceTree = "<group>"; };
+		820A99F74DBA3B408DA88D1666298EF7 /* libFXBlurView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFXBlurView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95DF600FD753002B5EF6506FED3ECB94 /* FXBlurView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FXBlurView-prefix.pch"; sourceTree = "<group>"; };
+		A96129152B78E333944B239C118FB9F0 /* Pods-QQMusicDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QQMusicDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0F450C337536DCEEFF279C29FDCEE35 /* libPods-QQMusicDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QQMusicDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1BCA0059405D5A296486D9F1EDBDF62 /* FXBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXBlurView.m; path = FXBlurView/FXBlurView.m; sourceTree = "<group>"; };
+		BD738BCF5872143400EB50B57D70809B /* Pods-QQMusicDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QQMusicDemo-dummy.m"; sourceTree = "<group>"; };
+		C208FC0360A9B176D0B3599A11FD1C91 /* FXBlurView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FXBlurView.xcconfig; sourceTree = "<group>"; };
+		E448886F539D1901165DB8CA98B53190 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FACED8C86EFAA0133ACD675960567676 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		FE191734575E21531229B090894CC57A /* Pods-QQMusicDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QQMusicDemo-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A8FD2923EE31C76CC0BB0D71F2B4D1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07977F9DAE0B0F6FC885AACDA4C4148C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B6BA63A87BA0A419CE15877FA6E48A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5F1C6EF796E495F0EF72C87CF7732D /* Accelerate.framework in Frameworks */,
+				BA0BB8AD8FCF8092A765522C9F788CA0 /* Foundation.framework in Frameworks */,
+				2A57FE01C3A9D63721359F5B5CC30ED2 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		113D3824D5AADF4ACE313E9AC2727C5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76CA19E08D3E2FFDE570446625FC9BE5 /* FXBlurView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B791E22FCC149ECB36D3E7E719B7E33 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		193D528278501B6F8A55E71F91615192 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6F70F503B6EF0D8B4B2A2C027CF438A /* Pods-QQMusicDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2B791E22FCC149ECB36D3E7E719B7E33 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FACED8C86EFAA0133ACD675960567676 /* Accelerate.framework */,
+				E448886F539D1901165DB8CA98B53190 /* Foundation.framework */,
+				3C0F502D72C788CE7E292AB05EC80EAE /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2D37FEBCBF249BE762D3AD2471D57658 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C208FC0360A9B176D0B3599A11FD1C91 /* FXBlurView.xcconfig */,
+				1FA4CDB32F3A5769862171CCC22CBD22 /* FXBlurView-dummy.m */,
+				95DF600FD753002B5EF6506FED3ECB94 /* FXBlurView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FXBlurView";
+			sourceTree = "<group>";
+		};
+		6EF2158ED2C644C5B1C30B3D9B2C074C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				820A99F74DBA3B408DA88D1666298EF7 /* libFXBlurView.a */,
+				B0F450C337536DCEEFF279C29FDCEE35 /* libPods-QQMusicDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76CA19E08D3E2FFDE570446625FC9BE5 /* FXBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				2E5F4F3091580F38A58EE40498838055 /* FXBlurView.h */,
+				B1BCA0059405D5A296486D9F1EDBDF62 /* FXBlurView.m */,
+				2D37FEBCBF249BE762D3AD2471D57658 /* Support Files */,
+			);
+			path = FXBlurView;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				113D3824D5AADF4ACE313E9AC2727C5C /* Pods */,
+				6EF2158ED2C644C5B1C30B3D9B2C074C /* Products */,
+				193D528278501B6F8A55E71F91615192 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A6F70F503B6EF0D8B4B2A2C027CF438A /* Pods-QQMusicDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A96129152B78E333944B239C118FB9F0 /* Pods-QQMusicDemo-acknowledgements.markdown */,
+				3F643DD2DB31AABBD4041D5085E6CB4D /* Pods-QQMusicDemo-acknowledgements.plist */,
+				BD738BCF5872143400EB50B57D70809B /* Pods-QQMusicDemo-dummy.m */,
+				7FD60026A9CE4D4D992ADBBA8BE101BE /* Pods-QQMusicDemo-frameworks.sh */,
+				FE191734575E21531229B090894CC57A /* Pods-QQMusicDemo-resources.sh */,
+				694D7BA962CF0CCF04317014F3D6C116 /* Pods-QQMusicDemo.debug.xcconfig */,
+				02B96CEAE8F3EF1851E13FFE83A50773 /* Pods-QQMusicDemo.release.xcconfig */,
+			);
+			name = "Pods-QQMusicDemo";
+			path = "Target Support Files/Pods-QQMusicDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E1FF1281ED23B218E66B0EEA6EA2D49C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1455697ECC2DF6C0564762F61655CECA /* FXBlurView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17392667E38E4938ACA525E988BB433B /* FXBlurView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C696658A2DAFD99DBCB7FDF9A1FE6D4 /* Build configuration list for PBXNativeTarget "FXBlurView" */;
+			buildPhases = (
+				7F0EF89CD9AEB6C9CE7FE1822BD25254 /* Sources */,
+				E9B6BA63A87BA0A419CE15877FA6E48A /* Frameworks */,
+				E1FF1281ED23B218E66B0EEA6EA2D49C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FXBlurView;
+			productName = FXBlurView;
+			productReference = 820A99F74DBA3B408DA88D1666298EF7 /* libFXBlurView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		847390C2F6FF5CF1C7A24F1028EDECD0 /* Pods-QQMusicDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0D77BD1EE98D7B27C0DA57EC81A753D /* Build configuration list for PBXNativeTarget "Pods-QQMusicDemo" */;
+			buildPhases = (
+				461D18841EB1D49FC25A6FE5FA7573F5 /* Sources */,
+				1A8FD2923EE31C76CC0BB0D71F2B4D1F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50AC426A79EC99008E000E19A1A469E2 /* PBXTargetDependency */,
+			);
+			name = "Pods-QQMusicDemo";
+			productName = "Pods-QQMusicDemo";
+			productReference = B0F450C337536DCEEFF279C29FDCEE35 /* libPods-QQMusicDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6EF2158ED2C644C5B1C30B3D9B2C074C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17392667E38E4938ACA525E988BB433B /* FXBlurView */,
+				847390C2F6FF5CF1C7A24F1028EDECD0 /* Pods-QQMusicDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		461D18841EB1D49FC25A6FE5FA7573F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54DB15D58DBC72D9E7BB555061069E06 /* Pods-QQMusicDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F0EF89CD9AEB6C9CE7FE1822BD25254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9FE2EB5C6E67DAD379ED9F43071C3B /* FXBlurView-dummy.m in Sources */,
+				EB3774E0A0442180CE015AC70748DB21 /* FXBlurView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50AC426A79EC99008E000E19A1A469E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FXBlurView;
+			target = 17392667E38E4938ACA525E988BB433B /* FXBlurView */;
+			targetProxy = 362A92AB938412C3AA0733C5F5F58C7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F68BE83F1F24027B4186D61B5769764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5CD1C97DCB2E3B9F8E0ADCAE1168D4C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694D7BA962CF0CCF04317014F3D6C116 /* Pods-QQMusicDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		80E3310A74BACC5E9BCA9ACC8D2ED498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B96CEAE8F3EF1851E13FFE83A50773 /* Pods-QQMusicDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A931857D52C2B99A53A0DD93B5F990BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C208FC0360A9B176D0B3599A11FD1C91 /* FXBlurView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FXBlurView/FXBlurView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C60F95016922D7EA644BD9F0C762C1B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C208FC0360A9B176D0B3599A11FD1C91 /* FXBlurView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FXBlurView/FXBlurView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E982A3281261DBFD6DC7DE9CBA272264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F68BE83F1F24027B4186D61B5769764 /* Debug */,
+				E982A3281261DBFD6DC7DE9CBA272264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C696658A2DAFD99DBCB7FDF9A1FE6D4 /* Build configuration list for PBXNativeTarget "FXBlurView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A931857D52C2B99A53A0DD93B5F990BD /* Debug */,
+				C60F95016922D7EA644BD9F0C762C1B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0D77BD1EE98D7B27C0DA57EC81A753D /* Build configuration list for PBXNativeTarget "Pods-QQMusicDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD1C97DCB2E3B9F8E0ADCAE1168D4C4 /* Debug */,
+				80E3310A74BACC5E9BCA9ACC8D2ED498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
